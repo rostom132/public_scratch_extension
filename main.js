@@ -21,7 +21,7 @@ const iconURL = 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vc
 // Core, Team, and Official extension classes should be registered statically with the Extension Manager.
 // See: scratch-vm/src/extension-support/extension-manager.js
 class Scratch3ArduinoTemplate {
-    constructor (runtime) {
+    constructor () {
         /**
          * The runtime instantiating this block package.
          * @type {Runtime}
@@ -29,7 +29,7 @@ class Scratch3ArduinoTemplate {
 
         console.log(' GO IN SIDE Scratch3ArduinoTemplate')
 
-        this.runtime = runtime;
+        this.runtime = Scratch.runtime;
         // this.workspace = runtime.workspace;
         Scratch.generator.arduinoGenerator.createCodeGeneratorForBlocks(this.getInfo().blocks, this.getInfo().id);
     }
