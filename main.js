@@ -26,8 +26,11 @@ class Scratch3ArduinoTemplate {
          * The runtime instantiating this block package.
          * @type {Runtime}
          */
+
+        console.log(' GO IN SIDE Scratch3ArduinoTemplate')
+
         this.runtime = runtime;
-        this.workspace = runtime.workspace;
+        // this.workspace = runtime.workspace;
         Scratch.generator.arduinoGenerator.createCodeGeneratorForBlocks(this.getInfo().blocks, this.getInfo().id);
     }
     getInfo () {
