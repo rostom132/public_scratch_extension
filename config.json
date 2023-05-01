@@ -1,0 +1,20 @@
+{
+    "id": "templateExtension",
+    "parentMode": "arduino",
+    "extensionDisplay": {
+        "name": "gui.extension.templateExtension.name",
+        "iconURL": "/images/Cat03.jpg",
+        "insetIconURL": "/images/Cat03.jpg",
+        "description": "gui.extension.templateExtension.description"
+    },
+    "translate": {
+        "vi": {
+            "gui.extension.templateExtension.name": "Extension mẫu",
+            "gui.extension.templateExtension.description": "Miêu tả extension mẫu"
+        },
+        "en": {
+            "gui.extension.templateExtension.name": "Template extension",
+            "gui.extension.templateExtension.description": "Template xtension description"
+        }
+    }
+}
