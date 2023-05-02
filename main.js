@@ -92,7 +92,7 @@ class Scratch3ArduinoTemplate {
                         }
                         
                     },
-                    blockType: BlockType.COMMAND
+                    blockType: Scratch.BlockType.COMMAND
                 }
             ]
         };
