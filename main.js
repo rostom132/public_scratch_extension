@@ -87,7 +87,7 @@ class Scratch3ArduinoTemplate {
                     ],
                     arguments: {
                         TOPIC: {
-                            type: ArgumentType.STRING,
+                            type: Scratch.ArgumentType.STRING,
                             defaultValue: 'V1'
                         }
                         
