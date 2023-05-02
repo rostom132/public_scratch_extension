@@ -78,10 +78,8 @@ class Scratch3ArduinoTemplate {
                 },
                 {
                     opcode: 'mqtt_subscribe',
-                    customGenerator: (args, block) => {
-                        const noQuoteTopic = args.TOPIC.slice(1,-1);
-                        return `mqtt.subcribe_topic(${args.TOPIC}, on_receive_${noQuoteTopic});\n`;
-                    },
+                    customGenerator: "const noQuoteTopic = args.TOPIC.slice(1,-1);"
+                        + "return `mqtt.subcribe_topic(${args.TOPIC}, on_receive_${noQuoteTopic});\n`;",
                     text: [
                         'đăng kí kênh [TOPIC]'
                     ],
