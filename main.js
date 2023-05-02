@@ -27,6 +27,9 @@ class Scratch3ArduinoTemplate {
             parentMode: 'arduino',
             name: 'Lập Lịch',
             blockIconURI: iconURL,
+            allowBlockTypes: {
+                arduinoTest_scheduler_task: -1
+            },
             color1: '#69453a',
             color2: '#59352a',
             blocks: [
