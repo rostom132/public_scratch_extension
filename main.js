@@ -41,7 +41,10 @@ class Scratch3ArduinoTemplate {
                         loop: 'SCH_Dispatch_Tasks();\n'
                     },
                     text: [
-                        'khởi tạo bộ lập lịch'
+                        {
+                            default: 'khởi tạo bộ lập lịch',
+                            id: "gui.externalExtension.templateExtension.scheduler_init"
+                        }
                     ],
                     blockType: Scratch.BlockType.COMMAND
                 },

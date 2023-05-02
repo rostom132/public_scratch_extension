@@ -1,19 +1,21 @@
 {
     "id": "arduinoTest",
     "extensionDisplay": {
-        "name": "gui.extension.templateExtension.name",
+        "name": "gui.externalExtension.templateExtension.name",
         "iconURL": "/images/Cat03.jpg",
         "insetIconURL": "/images/Cat03.jpg",
-        "description": "gui.extension.templateExtension.description"
+        "description": "gui.externalExtension.templateExtension.description"
     },
     "translate": {
         "vi": {
-            "gui.extension.templateExtension.name": "Extension mẫu",
-            "gui.extension.templateExtension.description": "Miêu tả extension mẫu"
+            "gui.externalExtension.templateExtension.name": "Extension mẫu",
+            "gui.externalExtension.templateExtension.description": "Miêu tả extension mẫu",
+            "gui.externalExtension.templateExtension.scheduler_init": "khởi tạo bộ lập lịch"
         },
         "en": {
-            "gui.extension.templateExtension.name": "Template extension",
-            "gui.extension.templateExtension.description": "Template xtension description"
+            "gui.externalExtension.templateExtension.name": "Template extension",
+            "gui.externalExtension.templateExtension.description": "Template xtension description",
+            "gui.externalExtension.templateExtension.scheduler_init": "Init scheduler"
         }
     }
 }
