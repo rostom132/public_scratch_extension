@@ -32,6 +32,9 @@ class Scratch3ArduinoTemplate {
         this.runtime = Scratch.runtime;
         // this.workspace = runtime.workspace;
         Scratch.generators.arduinoGenerator.createCodeGeneratorForBlocks(this.getInfo().blocks, this.getInfo().id);
+
+        console.log('Scratch.generators.arduinoGenerator', Scratch.generators.arduinoGenerator)
+        console.log('Scratch.runtime', Scratch.runtime);
     }
     getInfo () {
         return {
